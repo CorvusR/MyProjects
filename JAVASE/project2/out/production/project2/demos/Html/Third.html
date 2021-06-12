@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 id="1">修改前</h1>
+<button type="button" onclick="loadXMLDoc()">修改</button>
+<script>function loadXMLDoc() {
+    var xmlHttp;
+    if (window.XMLHttpRequest) {
+       xmlHttp = new XMLHttpRequest();
+    } else {
+        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlHttp.open("GET", "/try/ajax/ajax_info.txt", false);
+    xmlHttp.send();
+    document.getElementById("1").innerHTML = xmlHttp.responseText;
+}
+</script>
+</body>
+</html>

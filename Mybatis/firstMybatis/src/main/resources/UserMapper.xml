@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--绑定对应的dao、mapper接口-->
+<mapper namespace="dao.UserDao">
+    <!--查询整表-->
+    <select id="getUserList" resultType="奥里给">
+        select *
+        from corvus.users;
+    </select>
+
+    <!--按ID查询-->
+    <select id="getUserById" parameterType="int" resultType="奥里给">
+        select *
+        from corvus.users
+        where u_id = #{id}
+    </select>
+
+    <!--按姓名查询-->
+    <select id="getUserByName" parameterType="String" resultType="奥里给">
+        select *
+        from corvus.users
+        where u_name like #{name}
+    </select>
+
+    <!--修改-->
+    <update id="update" parameterType="奥里给">
+        update corvus.users set u_id = #{u_id}  where u_name = #{u_name}
+    </update>
+
+    <!--插入-->
+    <insert id="insert" parameterType="奥里给">
+        insert into corvus.users(u_id, u_name, u_gender)
+        values (#{u_id}, #{u_name}, #{u_gender})
+    </insert>
+
+    <!--删除-->
+    <delete id="delete" parameterType="int">
+        delete from corvus.users where u_id = #{id}
+    </delete>
+
+
+
+</mapper>

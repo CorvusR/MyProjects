@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC/SpringMVC.iml" filepath="$PROJECT_DIR$/SpringMVC/SpringMVC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC/SpringMVC-1/SpringMVC-1.iml" filepath="$PROJECT_DIR$/SpringMVC/SpringMVC-1/SpringMVC-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC/SpringMVC-2/SpringMVC-2.iml" filepath="$PROJECT_DIR$/SpringMVC/SpringMVC-2/SpringMVC-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC/SpringMVC-3/SpringMVC-3.iml" filepath="$PROJECT_DIR$/SpringMVC/SpringMVC-3/SpringMVC-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC/SpringMVC-4-Jackson/SpringMVC-4-Jackson.iml" filepath="$PROJECT_DIR$/SpringMVC/SpringMVC-4-Jackson/SpringMVC-4-Jackson.iml" />
+    </modules>
+  </component>
+</project>

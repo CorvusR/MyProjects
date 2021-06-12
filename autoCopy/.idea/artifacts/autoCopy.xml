@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="autoCopy">
+    <output-path>$PROJECT_DIR$/../../Users/XIEHE-IT03/Desktop</output-path>
+    <root id="archive" name="autoCopy.jar">
+      <element id="module-output" name="autoCopy" />
+    </root>
+  </artifact>
+</component>

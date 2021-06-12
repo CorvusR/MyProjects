@@ -1,0 +1,11 @@
+  banner:
+    image:
+      location: static/favicon.ico
+
+
+  spring:
+    mvc:
+      hiddenmethod:
+        filter:
+          enabled: true
+

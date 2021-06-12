@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SpringBoot-1-start" />
+        <module name="SpringBoot-3-static" />
+        <module name="SpringBoot-4-request" />
+        <module name="SpringBoot-2-yaml" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="static" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringBoot" options="-parameters" />
+      <module name="SpringBoot-1-start" options="-parameters" />
+      <module name="SpringBoot-2-yaml" options="-parameters" />
+      <module name="SpringBoot-3-static" options="-parameters" />
+      <module name="SpringBoot-4-request" options="-parameters" />
+      <module name="static" options="-parameters" />
+    </option>
+  </component>
+</project>

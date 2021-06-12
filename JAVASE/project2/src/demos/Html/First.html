@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="calculate"></p>
+
+<script>
+    var numbers = {
+        firstnum: 5, secondnum: 5,
+        calculate: function () {
+            return this.firstnum + this.secondnum;
+        }
+    };
+
+    document.getElementById("calculate").innerHTML = numbers.calculate() </script>
+<div style="width:800px;height: 600px;background-color: aqua">
+    <div><h1 style="height: 100px;text-align: center">kinetic</h1></div>
+    <div style="width: 400px;height: 400px;background-color: pink;float: left;text-align: center"><big
+            style="text-align: center"><b>Singer</b>Sona</big></div>
+    <div style="width: 400px;height: 400px;background-color: lightgreen;float: left;text-align: center"><b>Publisher</b>League
+    </div>
+
+</div>
+</body>
+</html>

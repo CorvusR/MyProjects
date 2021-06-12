@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="user" class="beans.User">
+        <property name="id" value="1"/>
+        <property name="first" ref="first"/>
+    </bean>
+    <bean id="first" class="dao.FirstImpl"/>
+    <bean id="second" class="dao.SecondImpl"/>
+    <bean id="userService" class="service.UserService">
+        <property name="userDao" ref="second"/>
+    </bean>
+
+    <bean id="user1" class="beans.User">
+        <constructor-arg name="name" value="张三"/>
+        <constructor-arg name="id" value="2"/>
+    </bean>
+
+    <bean id="wuhu" class="beans.WuHu" scope=""/>
+
+    <alias name="wuhu" alias="qifei"/>
+
+    <import resource="beans1.xml"/>
+
+    <bean id = "user" class="beans.User" p:id="1"/>
+    <bean id="user" class="beans.User" c:id="1"/>
+</beans>

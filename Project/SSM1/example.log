@@ -1,0 +1,122 @@
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 360207322.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@157853da]
+DEBUG main dao.BookDao.getAllBooks - ==>  Preparing: select * from books 
+DEBUG main dao.BookDao.getAllBooks - ==> Parameters: 
+DEBUG main dao.BookDao.getAllBooks - <==      Total: 3
+INFO main com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+INFO main com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+INFO main com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+INFO main com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+INFO main com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG Finalizer org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+INFO main com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG Finalizer org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+INFO main com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG Finalizer org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+INFO main com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG Finalizer org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+INFO main com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1080b026] was not registered for synchronization because synchronization is not active
+INFO main com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4b3c354a] will not be managed by Spring
+DEBUG main dao.BookDao.getBookById - ==>  Preparing: select * from books where id = ? 
+DEBUG main dao.BookDao.getBookById - ==> Parameters: 1(Integer)
+DEBUG main dao.BookDao.getBookById - <==      Total: 1
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1080b026]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG Finalizer org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+INFO main com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40499e4f] was not registered for synchronization because synchronization is not active
+INFO main com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3f446bef] will not be managed by Spring
+DEBUG main dao.BookDao.getAllBooks - ==>  Preparing: select * from books 
+DEBUG main dao.BookDao.getAllBooks - ==> Parameters: 
+DEBUG main dao.BookDao.getAllBooks - <==      Total: 3
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40499e4f]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+DEBUG main org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@62ea3440] was not registered for synchronization because synchronization is not active
+INFO main com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+DEBUG main org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@20b5f2ac] will not be managed by Spring
+DEBUG main dao.BookDao.getAllBooks - ==>  Preparing: select * from books 
+DEBUG main dao.BookDao.getAllBooks - ==> Parameters: 
+DEBUG main dao.BookDao.getAllBooks - <==      Total: 3
+DEBUG main org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@62ea3440]

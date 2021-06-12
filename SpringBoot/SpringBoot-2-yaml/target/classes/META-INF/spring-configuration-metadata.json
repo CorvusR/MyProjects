@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "users",
+      "type": "com.corvus.beans.Users",
+      "sourceType": "com.corvus.beans.Users"
+    }
+  ],
+  "properties": [
+    {
+      "name": "users.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.corvus.beans.Users"
+    },
+    {
+      "name": "users.children",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.corvus.beans.Users"
+    },
+    {
+      "name": "users.name",
+      "type": "java.lang.String",
+      "sourceType": "com.corvus.beans.Users"
+    }
+  ],
+  "hints": []
+}

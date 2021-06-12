@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Testing!</h1>
+<button type="button" id="button">TOCHE ME!</button>
+<p id="mimes"></p>
+<script>
+    var b = document.getElementById("button");
+    b.addEventListener("click",f1);
+    b.addEventListener("mouseover",f2);
+    b.addEventListener("mouseleave",f3);
+
+    function f1() {
+        document.getElementById("mimes").innerHTML += "WHOOP!<br>";
+    }
+
+    function f2() {
+        document.getElementById("mimes").innerHTML += "ITCH!<br>";
+    }
+
+    function f3() {
+        document.getElementById("mimes").innerHTML += "COMEBACK!<br>";
+    }
+</script>
+</body>
+</html>

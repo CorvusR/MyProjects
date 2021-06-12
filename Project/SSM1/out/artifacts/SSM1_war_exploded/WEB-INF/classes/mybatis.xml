@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <properties resource="db.properties"/>
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>    <!--驼峰法-->
+        <setting name="logImpl" value="LOG4J"/>                       <!--打开log4j-->
+    </settings>
+
+    <typeAliases>                                                      <!--别名-->
+        <package name="beans"/>
+        <package name="resources"/>
+    </typeAliases>
+
+    <mappers>
+        <mapper class="dao.BookDao"/>
+    </mappers>
+
+</configuration>

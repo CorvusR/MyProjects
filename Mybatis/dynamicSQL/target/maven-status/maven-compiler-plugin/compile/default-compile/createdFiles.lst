@@ -1,0 +1,4 @@
+utils\MybatisUtils.class
+beans\Blog.class
+utils\IdUtils.class
+mapper\BlogMapper.class
